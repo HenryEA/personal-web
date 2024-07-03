@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <p data-testid="slackDisplayName">HenryEA</p>
+        <p data-testid="currentTimeUTC">
+          <span id="current-time"></span>
+        </p>
+        <p data-testid="currentDay">
+          <span id="current-day"></span>
+        </p>
+        <p data-testid="slackEmail">anene.hekene@gmail.com</p>
+        <a href="https://hng.tech/learn" data-testid="hngLink"
+          >hng.tech/learn</a
+        >
+        <a href="https://keyword.dog" data-testid="keywordLink">keyword.dog</a>
+        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+          >scrapeanyweb.site</a
+        >
+      </div>
+      <div class="right">
+        <div class="profile-picture" data-testid="slackProfilePicture">
+          <img
+            src="profile-picture.jpg"
+            alt="Profile Picture"
+            id="profile-img"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="tech-goals-container">
+      <h2 class="tech-goals-title">Tech Goals</h2>
+      <div class="tech-goals">
+        <div class="goal">
+          1. Get employed as a developer and increase my expertise.
+        </div>
+        <div class="goal">
+          2. Become a highly resourceful, competent and productive developer.
+        </div>
+        <div class="goal">
+          3. Connect with other industry professionals to be more exposed and
+          learned in my field.
+        </div>
+        <div class="goal">
+          4. Be able to work with multiple technologies and programming
+          languages effectively.
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
